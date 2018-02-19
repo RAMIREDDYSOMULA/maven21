@@ -95,7 +95,7 @@ License
 [dev-ml-list]: https://www.mail-archive.com/dev@maven.apache.org/
 [code-style]: http://maven.apache.org/developers/conventions/code.html
 [core-it]: https://maven.apache.org/core-its/core-it-suite/
-[building-maven: https://maven.apache.org/guides/development/guide-building-maven.html
+[building-maven]: https://maven.apache.org/guides/development/guide-building-maven.html
 [maven-wiki]: https://cwiki.apache.org/confluence/display/MAVEN/Index
 [cla]: https://www.apache.org/licenses/#clas
 
