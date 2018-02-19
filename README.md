@@ -36,14 +36,6 @@ More information can be found on [Apache Maven Homepage][maven-home].
 Question related to the usage of the Maven should be posted on
 the [Maven User List][users-list].
 
-If you are interested in the development of Maven please consult the 
-documentation first and afterwards you are welcome to join the developers 
-mailing list to ask question or discus new ideas / features / bugs etc.
-
-[Maven Wiki](https://cwiki.apache.org/confluence/display/MAVEN/Index)
-[Building Maven](https://maven.apache.org/guides/development/guide-building-maven.html)
-[Running Core ITs](https://maven.apache.org/core-its/core-it-suite/)
-
 
 Where can I get the latest release?
 -----------------------------------
@@ -51,6 +43,13 @@ You can download release source from our [download page][maven-download].
 
 Contributing
 ------------
+
+If you are interested in the development of Maven please consult the 
+documentation first and afterwards you are welcome to join the developers 
+mailing list to ask question or discus new ideas / features / bugs etc.
+
+Some of the ideas are documented in the [Maven Wiki][maven-wiki]
+which might be intersting to read and for further discussion.
 
 We accept Pull Requests via GitHub. The [developer mailing list][dev-ml-list] is the
 main channel of communication for contributors.  
@@ -60,10 +59,10 @@ There are some guidelines which will make applying PRs easier for us:
 + Create minimal diffs - disable on save actions like reformat source code or
   organize imports. If you feel the source code should be reformatted create a
   separate PR for this change.
-+ Provide JUnit/Core IT tests for your changes and make sure your changes don't break
++ Provide JUnit/[Core IT tests][core-it] for your changes and make sure your changes don't break
   any existing tests by running ```mvn -Prun-its verify```.
 
-If you plan to contribute on a regular basis, please consider filing a [contributor license agreement](https://www.apache.org/licenses/#clas).
+If you plan to contribute on a regular basis, please consider filing a [contributor license agreement][cla].
 You can learn more about contributing via GitHub in our [contribution guidelines](CONTRIBUTING.md).
 
 
@@ -95,3 +94,8 @@ License
 [users-list]: http://maven.apache.org/mail-lists.html
 [dev-ml-list]: https://www.mail-archive.com/dev@maven.apache.org/
 [code-style]: http://maven.apache.org/developers/conventions/code.html
+[core-it]: https://maven.apache.org/core-its/core-it-suite/
+[building-maven: https://maven.apache.org/guides/development/guide-building-maven.html
+[maven-wiki]: https://cwiki.apache.org/confluence/display/MAVEN/Index
+[cla]: https://www.apache.org/licenses/#clas
+
