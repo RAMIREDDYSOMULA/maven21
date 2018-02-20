@@ -48,23 +48,7 @@ If you are interested in the development of Maven please consult the
 documentation first and afterwards you are welcome to join the developers 
 mailing list to ask question or discus new ideas / features / bugs etc.
 
-Some of the ideas are documented in the [Maven Wiki][maven-wiki]
-which might be intersting to read and for further discussion.
-
-We accept Pull Requests via GitHub. The [developer mailing list][dev-ml-list] is the
-main channel of communication for contributors.  
-There are some guidelines which will make applying PRs easier for us:
-+ No tabs! Please use spaces for indentation.
-+ Respect the [code style][code-style].
-+ Create minimal diffs - disable on save actions like reformat source code or
-  organize imports. If you feel the source code should be reformatted create a
-  separate PR for this change.
-+ Provide JUnit/[Core IT tests][core-it] for your changes and make sure your changes don't break
-  any existing tests by running ```mvn -Prun-its verify```.
-
-If you plan to contribute on a regular basis, please consider filing a [contributor license agreement][cla].
-You can learn more about contributing via GitHub in our [contribution guidelines](CONTRIBUTING.md).
-
+Take a look into the [contribution guidelines](CONTRIBUTING.md).
 
 License
 -------
@@ -96,6 +80,5 @@ License
 [code-style]: http://maven.apache.org/developers/conventions/code.html
 [core-it]: https://maven.apache.org/core-its/core-it-suite/
 [building-maven]: https://maven.apache.org/guides/development/guide-building-maven.html
-[maven-wiki]: https://cwiki.apache.org/confluence/display/MAVEN/Index
 [cla]: https://www.apache.org/licenses/#clas
 

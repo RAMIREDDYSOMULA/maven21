@@ -23,6 +23,9 @@ you dig right into the code there are a few guidelines that we need
 contributors to follow so that we can have a chance of keeping on top of
 things.
 
+Some of the ideas are documented in the [Maven Wiki][maven-wiki]
+which might be intersting to read and for further discussion.
+
 Getting Started
 ---------------
 
@@ -41,6 +44,7 @@ Making Changes
 --------------
 
 + Create a topic branch from where you want to base your work (this is usually the master branch).
+  Push your changes to a topic branch in your fork of the repository.
 + Make commits of logical units.
 + Respect the original code style:
   + Only use spaces for indentation.
@@ -50,6 +54,8 @@ Making Changes
 + Make sure your commit messages are in the proper format. Your commit message should contain the key of the JIRA issue.
 + Make sure you have added the necessary tests for your changes.
 + Run all the tests with `mvn -Prun-its clean verify` to assure nothing else was accidentally broken.
++ Submit a pull request to the repository in the apache organization.
++ Update your JIRA ticket and include a link to the pull request in the ticket.
 
 Making Trivial Changes
 ----------------------
@@ -58,13 +64,23 @@ For changes of a trivial nature to comments and documentation, it is not always
 necessary to create a new ticket in JIRA.  In this case, it is appropriate to
 start the first line of a commit with '(doc)' instead of a ticket number.
 
+
 Submitting Changes
 ------------------
 
-+ Sign the [Contributor License Agreement][cla] if you haven't already.
-+ Push your changes to a topic branch in your fork of the repository.
-+ Submit a pull request to the repository in the apache organization.
-+ Update your JIRA ticket and include a link to the pull request in the ticket.
+We accept Pull Requests via GitHub. The [developer mailing list][dev-ml-list] is the
+main channel of communication for contributors.  
+There are some guidelines which will make applying PRs easier for us:
++ No tabs! Please use spaces for indentation.
++ Respect the [code style][code-style].
++ Create minimal diffs - disable on save actions like reformat source code or
+  organize imports. If you feel the source code should be reformatted create a
+  separate PR for this change.
++ Provide JUnit/[Core IT tests][core-it] for your changes and make sure your changes don't break
+  any existing tests by running ```mvn -Prun-its verify```.
+
+If you plan to contribute on a regular basis, please consider filing a [contributor license agreement][cla].
+
 
 Additional Resources
 --------------------
@@ -78,3 +94,4 @@ Additional Resources
 + #Maven IRC channel on freenode.org
 
 [cla]:https://www.apache.org/licenses/#clas
+[maven-wiki]: https://cwiki.apache.org/confluence/display/MAVEN/Index
