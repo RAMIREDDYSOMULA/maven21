@@ -71,8 +71,10 @@ Submitting Changes
 We accept Pull Requests via GitHub. The [developer mailing list][dev-ml-list] is the
 main channel of communication for contributors.  
 There are some guidelines which will make applying PRs easier for us:
-+ No tabs! Please use spaces for indentation.
-+ Respect the [code style][code-style].
++ The Maven Codestyle uses spaces instead of spaces. This way column numbers 
+  don't depend on the IDE settings and will be the same for everyone.
++ By using the same [codestyle][code-style], patches should only highlight the actual 
+  difference, not being disturbed by any formatting issues. 
 + Create minimal diffs - disable on save actions like reformat source code or
   organize imports. If you feel the source code should be reformatted create a
   separate PR for this change.
