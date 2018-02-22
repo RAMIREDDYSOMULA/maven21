@@ -56,7 +56,6 @@ This code is under the [Apache Licence v2][license]
 
 See the `NOTICE` file for required notices and attributions.
 
-
 Donations
 ---------
 You like Apache Maven? Then [donate back to the ASF](https://www.apache.org/foundation/contributing.html) to support the development.
