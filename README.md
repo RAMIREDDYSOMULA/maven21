@@ -61,7 +61,6 @@ Donations
 ---------
 You like Apache Maven? Then [donate back to the ASF](https://www.apache.org/foundation/contributing.html) to support the development.
 
-
 License
 -------
 [Apache License, Version 2.0, January 2004][license]
